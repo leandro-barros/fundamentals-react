@@ -12,8 +12,9 @@ ReactDOM.render(
     <div>
         <FirstComponent></FirstComponent>
         <ComParam
-            firstTitle="Primeiro título" 
-            secondTitle="Segundo título"/>
+            title="Situação do Aluno" 
+            aluno="Leandro Barros"
+            nota={ 9.8 }/>
     </div>,
      element
 );
