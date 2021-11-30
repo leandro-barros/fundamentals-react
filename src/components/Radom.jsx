@@ -5,7 +5,7 @@ export default (props) => {
     const num = parseInt(Math.random() * (max - min) + min);
     return (
         <>
-            <h1>Número aleatório entre { min } e { max }</h1>
+            <h2>Número aleatório entre { min } e { max }</h2>
             <span>Valor: { num }</span>
         </>
     );
