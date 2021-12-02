@@ -17,24 +17,24 @@ export default () => {
             <h1>Fundamentos React</h1>
 
             <div className="cards">
-                <Card title="#04 - Desafio Aleatório">
+                <Card title="#04 - Desafio Aleatório" color="#FA6900">
                     <Radom 
                         min={ 5 }
                         max={ 10 } />
                 </Card>
 
-                <Card title="#03 - Fragment">
+                <Card title="#03 - Fragment" color="#E94C6F">
                     <Fragment />
                 </Card>
 
-                <Card title="#02 - Com Parâmetro">
+                <Card title="#02 - Com Parâmetro" color="#E8B71A">
                     <ComParam 
                         title="Situação Aluno"
                         aluno="Leandro Barros"
                         nota={ 9.8 } />
                 </Card>
 
-                <Card title="#01 - Primeiro Componente">
+                <Card title="#01 - Primeiro Componente" color="#588C73">
                     <FirstComponent />
                 </Card>     
             </div>
