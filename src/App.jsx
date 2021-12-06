@@ -5,6 +5,7 @@ import './App.css'
 import ComParam from "./components/basics/ComParam";
 import FirstComponent from "./components/basics/FirstComponent";
 import Fragment from "./components/basics/Fragment";
+import Familia from "./components/basics/Familia";
 
 import Radom from "./components/Radom";
 
@@ -17,6 +18,10 @@ export default () => {
             <h1>Fundamentos React</h1>
 
             <div className="cards">
+                <Card title="#05 - Componente com filhos" color="#00c8f8">
+                    <Familia sobrenome="Ferreira"/>
+                </Card>
+
                 <Card title="#04 - Desafio Aleatório" color="#FA6900">
                     <Radom 
                         min={ 5 }
