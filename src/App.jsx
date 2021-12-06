@@ -20,7 +20,7 @@ export default () => {
 
             <div className="cards">
                 <Card title="#05 - Componente com filhos" color="#00c8f8">
-                    <Familia sobrenome="Ferreira">
+                    <Familia sobrenome="Barros">
                     <FamiliaMembro nome="Pedro"/>  
                     <FamiliaMembro nome="Ana"/> 
                     <FamiliaMembro nome="Gustavo"/> 
