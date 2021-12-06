@@ -6,6 +6,7 @@ import ComParam from "./components/basics/ComParam";
 import FirstComponent from "./components/basics/FirstComponent";
 import Fragment from "./components/basics/Fragment";
 import Familia from "./components/basics/Familia";
+import FamiliaMembro from "./components/basics/FamiliaMembro";
 
 import Radom from "./components/Radom";
 
@@ -19,7 +20,11 @@ export default () => {
 
             <div className="cards">
                 <Card title="#05 - Componente com filhos" color="#00c8f8">
-                    <Familia sobrenome="Ferreira"/>
+                    <Familia sobrenome="Ferreira">
+                    <FamiliaMembro nome="Pedro"/>  
+                    <FamiliaMembro nome="Ana"/> 
+                    <FamiliaMembro nome="Gustavo"/> 
+                    </Familia>
                 </Card>
 
                 <Card title="#04 - Desafio Aleatório" color="#FA6900">
