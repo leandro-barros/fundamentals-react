@@ -29,7 +29,7 @@ export default () => {
                 <Card title="#08 - Rederização Condicional" color="#982395">
                     <ParOrImpar number={20}/>
                     <UsuarioInfo usuario={{ name: 'Fernando' }} />
-                    <UsuarioInfo usuario={{ email: 'fernando@gmai.com' }} />
+                    {/*<UsuarioInfo usuario={{ email: 'fernando@gmai.com' }} />*/}
                 </Card>
 
                 <Card title="#07 - Desafio Repetição" color="#3a9ad9">
