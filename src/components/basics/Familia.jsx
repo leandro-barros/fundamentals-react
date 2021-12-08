@@ -5,7 +5,7 @@ export default props => {
         <div>
             { 
                 props.children.map((child, i) => {
-                    return React.cloneElement(child, { ...props, kew: i });
+                    return React.cloneElement(child, { ...props, key: i });
                 })
             }
         </div>
