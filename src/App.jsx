@@ -8,6 +8,8 @@ import Fragment from "./components/basics/Fragment";
 import Familia from "./components/basics/Familia";
 import FamiliaMembro from "./components/basics/FamiliaMembro";
 
+import ParOrImpar from './components/condicional/ParOrImpar'
+
 import ListaAlunos from './components/repeticao/ListaAlunos'
 
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
@@ -23,6 +25,10 @@ export default () => {
             <h1>Fundamentos React</h1>
 
             <div className="cards">
+                <Card title="#08 - Rederização Condicional" color="#982395">
+                    <ParOrImpar number={20}/>
+                </Card>
+
                 <Card title="#07 - Desafio Repetição" color="#3a9ad9">
                     <TabelaProdutos />
                 </Card>
