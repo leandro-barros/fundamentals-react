@@ -9,6 +9,7 @@ import Familia from "./components/basics/Familia";
 import FamiliaMembro from "./components/basics/FamiliaMembro";
 
 import ParOrImpar from './components/condicional/ParOrImpar'
+import UsuarioInfo from './components/condicional/UsuarioInfo'
 
 import ListaAlunos from './components/repeticao/ListaAlunos'
 
@@ -27,6 +28,8 @@ export default () => {
             <div className="cards">
                 <Card title="#08 - Rederização Condicional" color="#982395">
                     <ParOrImpar number={20}/>
+                    <UsuarioInfo usuario={{ name: 'Fernando' }} />
+                    <UsuarioInfo usuario={{ email: 'fernando@gmai.com' }} />
                 </Card>
 
                 <Card title="#07 - Desafio Repetição" color="#3a9ad9">
