@@ -12,8 +12,9 @@ import ParOrImpar from './components/condicional/ParOrImpar'
 import UsuarioInfo from './components/condicional/UsuarioInfo'
 
 import ListaAlunos from './components/repeticao/ListaAlunos'
-
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
+
+import DiretaPai from "./components/comunicacao/DiretaPai";
 
 import Radom from "./components/Radom";
 
@@ -26,6 +27,10 @@ export default () => {
             <h1>Fundamentos React</h1>
 
             <div className="cards">
+                <Card title="#09 - Comunicação Direta" color="#59323C">
+                    <DiretaPai />
+                </Card>
+
                 <Card title="#08 - Rederização Condicional" color="#982395">
                     <ParOrImpar number={20}/>
                     <UsuarioInfo usuario={{ name: 'Fernando' }} />
