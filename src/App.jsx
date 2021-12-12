@@ -22,6 +22,8 @@ import Radom from "./components/Radom";
 
 import Card from './components/layout/Card'
 
+import Input from './components/formulario/Input'
+
 
 export default () => {
     return (
@@ -29,6 +31,10 @@ export default () => {
             <h1>Fundamentos React</h1>
 
             <div className="cards">
+                <Card title="#11 - Componente Controlado (input)" color="#E45F56">
+                    <Input />
+                </Card>
+
                 <Card title="#10 - Comunicação Indireta" color="#8BAD39">
                     <IndiretaPai />
                 </Card>
