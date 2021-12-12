@@ -16,6 +16,8 @@ import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 
 import DiretaPai from "./components/comunicacao/DiretaPai";
 
+import IndiretaPai from './components/comunicacao/IndiretaPai';
+
 import Radom from "./components/Radom";
 
 import Card from './components/layout/Card'
@@ -27,6 +29,10 @@ export default () => {
             <h1>Fundamentos React</h1>
 
             <div className="cards">
+                <Card title="#10 - Comunicação Indireta" color="#8BAD39">
+                    <IndiretaPai />
+                </Card>
+
                 <Card title="#09 - Comunicação Direta" color="#59323C">
                     <DiretaPai />
                 </Card>
