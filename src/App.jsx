@@ -34,7 +34,7 @@ export default () => {
 
             <div className="cards">
                 <Card title="#12 - Componente Contador" color="#424242">
-                    <Contador numero={10}/>
+                    <Contador numeroInicial={10}/>
                 </Card>
 
                 <Card title="#11 - Componente Controlado (input)" color="#E45F56">
