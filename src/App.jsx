@@ -26,6 +26,8 @@ import Input from './components/formulario/Input'
 
 import Contador from './components/contador/Contador'
 
+import Mega from './components/mega/Mega'
+
 
 export default () => {
     return (
@@ -33,6 +35,10 @@ export default () => {
             <h1>Fundamentos React</h1>
 
             <div className="cards">
+                <Card title="#13 - Mega" color="#B900E">
+                    <Mega />
+                </Card>
+
                 <Card title="#12 - Componente Contador" color="#424242">
                     <Contador numeroInicial={10}/>
                 </Card>
